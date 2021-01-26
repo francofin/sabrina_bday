@@ -1,0 +1,36 @@
+{
+  "name": "sabrina_bday",
+  "version": "1.0.0",
+  "description": "Sabrina's birthday Website",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/francofin/sabrina_bday.git"
+  },
+  "keywords": [
+    "brithday"
+  ],
+  "author": "Francois Jack",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/francofin/sabrina_bday/issues"
+  },
+  "homepage": "https://github.com/francofin/sabrina_bday#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "connect-session-sequelize": "^7.1.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0",
+    "express-session": "^1.17.1",
+    "fs": "0.0.1-security",
+    "multer": "^1.4.2",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.4.0",
+    "uuid": "^8.3.2"
+  }
+}

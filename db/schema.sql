@@ -1,0 +1,3 @@
+DROP DATABASE IF EXISTS sabrina_db;
+
+CREATE DATABASE sabrina_db;
