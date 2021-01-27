@@ -85,9 +85,9 @@
                     <h2 class="header__nav-heading h6">Site Navigation</h2>
 
                     <ul class="header__nav">
-                        <li><a href="index.html" title="">Home</a></li>
+                        <li class="current"><a href="index.html" title="">Home</a></li>
                         <li class="has-children">
-                            <a href="#0" title="">Categories</a>
+                            <a href="#0" title="">Sign Up</a>
                             <ul class="sub-menu">
                             <li><a href="category.html">Lifestyle</a></li>
                             <li><a href="category.html">Health</a></li>
@@ -97,18 +97,12 @@
                             <li><a href="category.html">Work</a></li>
                             </ul>
                         </li>
-                        <li class="has-children">
-                            <a href="#0" title="">Blog</a>
-                            <ul class="sub-menu">
-                            <li><a href="single-video.html">Video Post</a></li>
-                            <li><a href="single-audio.html">Audio Post</a></li>
-                            <li><a href="single-gallery.html">Gallery Post</a></li>
-                            <li><a href="single-standard.html">Standard Post</a></li>
-                            </ul>
+                        <li>
+                            <a href="/signup" title="">Sign Up</a>
                         </li>
-                        <li><a href="style-guide.html" title="">Styles</a></li>
-                        <li><a href="about.html" title="">About</a></li>
-                        <li class="current"><a href="contact.html" title="">Contact</a></li>
+                        <li><a href="/login" title="">Log In</a></li>
+                        <li><a href="/about" title="">About</a></li>
+                        <li><a href="contact.html" title="">Contact</a></li>
                     </ul> <!-- end header__nav -->
 
                     <a href="#0" title="Close Menu" class="header__overlay-close close-mobile-menu">Close</a>
@@ -124,119 +118,30 @@
 
  <section class="s-extra">
 
-        <div class="row top">
+                <div class="row half-bottom">
 
-            <div class="col-eight md-six tab-full popular">
-                <h3>Popular Posts</h3>
+            <div class="col-six tab-full">
 
-                <div class="block-1-2 block-m-full popular__posts">
-                    <article class="col-block popular__post">
-                        <a href="#0" class="popular__thumb">
-                            <img src="images/thumbs/small/wheel-150.jpg" alt="">
-                        </a>
-                        <h5><a href="#0">Visiting Theme Parks Improves Your Health.</a></h5>
-                        <section class="popular__meta">
-                                <span class="popular__author"><span>By</span> <a href="#0"> John Doe</a></span>
-                            <span class="popular__date"><span>on</span> <time datetime="2017-12-19">Dec 19, 2017</time></span>
-                        </section>
-                    </article>
-                    <article class="col-block popular__post">
-                        <a href="#0" class="popular__thumb">
-                            <img src="images/thumbs/small/shutterbug-150.jpg" alt="">
-                        </a>
-                        <h5><a href="#0">Key Benefits Of Family Photography.</a></h5>
-                        <section class="popular__meta">
-                            <span class="popular__author"><span>By</span> <a href="#0"> John Doe</a></span>
-                            <span class="popular__date"><span>on</span> <time datetime="2017-12-18">Dec 18, 2017</time></span>
-                        </section>
-                    </article>
-                    <article class="col-block popular__post">
-                        <a href="#0" class="popular__thumb">
-                            <img src="images/thumbs/small/cookies-150.jpg" alt="">
-                        </a>
-                        <h5><a href="#0">Absolutely No Sugar Oatmeal Cookies.</a></h5>
-                        <section class="popular__meta">
-                                <span class="popular__author"><span>By</span> <a href="#0"> John Doe</a></span>
-                            <span class="popular__date"><span>on</span> <time datetime="2017-12-16">Dec 16, 2017</time></span>
-                        </section>
-                    </article>
-                    <article class="col-block popular__post">
-                        <a href="#0" class="popular__thumb">
-                            <img src="images/thumbs/small/beetle-150.jpg" alt="">
-                        </a>
-                        <h5><a href="#0">Throwback To The Good Old Days.</a></h5>
-                        <section class="popular__meta">
-                            <span class="popular__author"><span>By</span> <a href="#0"> John Doe</a></span>
-                            <span class="popular__date"><span>on</span> <time datetime="2017-12-16">Dec 16, 2017</time></span>
-                        </section>
-                    </article>
-                    <article class="col-block popular__post">
-                        <a href="#0" class="popular__thumb">
-                            <img src="images/thumbs/small/tulips-150.jpg" alt="">
-                        </a>
-                        <h5><a href="#0">10 Interesting Facts About Caffeine.</a></h5>
-                        <section class="popular__meta">
-                            <span class="popular__author"><span>By</span> <a href="#0"> John Doe</a></span>
-                            <span class="popular__date"><span>on</span> <time datetime="2017-12-14">Dec 14, 2017</time></span>
-                        </section>
-                    </article>
-                    <article class="col-block popular__post">
-                        <a href="#0" class="popular__thumb">
-                            <img src="images/thumbs/small/salad-150.jpg" alt="">
-                        </a>
-                        <h5><a href="#0">Healthy Mediterranean Salad Recipes</a></h5>
-                        <section class="popular__meta">
-                            <span class="popular__author"><span>By</span> <a href="#0"> John Doe</a></span>
-                            <span class="popular__date"><span>on</span> <time datetime="2017-12-12">Dec 12, 2017</time></span>
-                        </section>
-                    </article>
-                </div> <!-- end popular_posts -->
-            </div> <!-- end popular -->
+                <h3 class="add-bottom">Responsive Image</h3>
+
+                <p><img src="images/wheel-500.jpg" 
+                    srcset="images/wheel-1000.jpg 1000w, 
+                    images/wheel-500.jpg 500w" 
+                    sizes="(max-width: 1000px) 100vw, 1000px" alt=""></p>
+
+            </div>
+
+            <div class="col-six tab-full">
+
+                <h3 class="add-bottom">Responsive video</h3>
+
+                <div class="video-container">
+                <iframe src="https://player.vimeo.com/video/14592941?title=0&amp;byline=0&amp;portrait=0&amp;color=F64B39" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> 
+                </div>
+
+            </div>
             
-            <div class="col-four md-six tab-full about">
-                <h3>About Philosophy</h3>
-
-                <p>
-                Donec sollicitudin molestie malesuada. Nulla quis lorem ut libero malesuada feugiat. Pellentesque in ipsum id orci porta dapibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Donec sollicitudin molestie malesuada.
-                </p>
-
-                <ul class="about__social">
-                    <li>
-                        <a href="#0"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                    </li>
-                    <li>
-                        <a href="#0"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                    </li>
-                    <li>
-                        <a href="#0"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                    </li>
-                    <li>
-                        <a href="#0"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
-                    </li>
-                </ul> <!-- end header__social -->
-            </div> <!-- end about -->
-
         </div> <!-- end row -->
-
-        <div class="row bottom tags-wrap">
-            <div class="col-full tags">
-                <h3>Tags</h3>
-
-                <div class="tagcloud">
-                    <a href="#0">Salad</a>
-                    <a href="#0">Recipe</a>
-                    <a href="#0">Places</a>
-                    <a href="#0">Tips</a>
-                    <a href="#0">Friends</a>
-                    <a href="#0">Travel</a>
-                    <a href="#0">Exercise</a>
-                    <a href="#0">Reading</a>
-                    <a href="#0">Running</a>
-                    <a href="#0">Self-Help</a>
-                    <a href="#0">Vacation</a>
-                </div> <!-- end tagcloud -->
-            </div> <!-- end tags -->
-        </div> <!-- end tags-wrap -->
 
     </section> <!-- end s-extra -->
 
@@ -353,7 +258,9 @@
     ================================================== -->
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/plugins.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js"></script>
+    <script defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC6ENqMDCQRwYAd0G6d0hY3m-YWx2ECSRU&callback=initMap">
+    </script>
     <script src="js/main.js"></script>
 
 </body>
